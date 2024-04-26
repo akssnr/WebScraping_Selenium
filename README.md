@@ -1,4 +1,4 @@
-                                     # **DOCUMENTATION**
+                                     # ** DOCUMENTATION **
 
 
 To ensure script runs smoothly, for setting up the environment and executing the script. Here’s a comprehensive guide to prepare your system for running the Selenium and DOCX processing script:
@@ -45,9 +45,8 @@ Follow these steps to execute the script:
 ### 2. Execute the Script:
     Run the script by typing the following command and then pressing Enter:
      # In Terminal:
-     ```
      python extraction_selenium.py
-     ```
+     
 
 ### 3. Check the Output:
     After the script completes execution, check the same directory for `output.json` and `output.xlsx` files containing the scraped data.
