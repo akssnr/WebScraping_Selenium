@@ -1,4 +1,4 @@
-                                     # ** DOCUMENTATION **
+                                     # DOCUMENTATION
 
 
 To ensure script runs smoothly, for setting up the environment and executing the script. Here’s a comprehensive guide to prepare your system for running the Selenium and DOCX processing script:
