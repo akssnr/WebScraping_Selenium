@@ -1,4 +1,4 @@
-                                             # # DOCUMENTATION
+                                     # **DOCUMENTATION**
 
 
 To ensure script runs smoothly, for setting up the environment and executing the script. Here’s a comprehensive guide to prepare your system for running the Selenium and DOCX processing script:
@@ -12,10 +12,12 @@ Make sure you have Python installed on your computer. You can download and insta
 Open your command line interface (CLI) and install the necessary Python packages using pip. Execute the following commands:
 
 ### In Terminal:
+```
 pip install selenium
 pip install python-docx
 pip install pandas
 pip install json
+```
 
 ### 3. Download ChromeDriver
  Go to the [ChromeDriver download page](https://googlechromelabs.github.io/chrome-for-testing/) or https://sites.google.com/chromium.org/driver/.
@@ -43,13 +45,15 @@ Follow these steps to execute the script:
 ### 2. Execute the Script:
     Run the script by typing the following command and then pressing Enter:
      # In Terminal:
-     python extraction_selenium.py    
+     ```
+     python extraction_selenium.py
+     ```
 
 ### 3. Check the Output:
     After the script completes execution, check the same directory for `output.json` and `output.xlsx` files containing the scraped data.
 
 ## Additional Tips
  Ensure your internet connection is active as the script needs to access websites.
-•	If you encounter issues with ChromeDriver, verify that its version matches your Chrome browser's version and that it is correctly located in the specified path.
-•	If you receive errors related to missing packages, make sure all required packages are installed as per the instructions above.
-•	By following these setup and execution instructions, you should be able to run the script without issues and obtain the desired data in both JSON and Excel formats.
+* If you encounter issues with ChromeDriver, verify that its version matches your Chrome browser's version and that it is correctly located in the specified path.
+* If you receive errors related to missing packages, make sure all required packages are installed as per the instructions above.
+* By following these setup and execution instructions, you should be able to run the script without issues and obtain the desired data in both JSON and Excel formats.
